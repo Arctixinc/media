@@ -1,0 +1,195 @@
+{
+  "id": "telegram.media",
+  "version": "1.6.9",
+  "name": "StreamGram",
+  "logo": "https://raw.githubusercontent.com/Arctixinc/media/refs/heads/main/TGStremio.png",
+  "description": "Streams movies and series from your Telegram.",
+  "types": [
+    "movie",
+    "series"
+  ],
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "latest_movies",
+      "name": "Latest",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Biography",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Sci-Fi",
+            "Sport",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "extraSupported": [
+        "genre",
+        "skip"
+      ]
+    },
+    {
+      "type": "movie",
+      "id": "top_movies",
+      "name": "Popular",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Biography",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Sci-Fi",
+            "Sport",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        },
+        {
+          "name": "search",
+          "isRequired": false
+        }
+      ],
+      "extraSupported": [
+        "genre",
+        "skip",
+        "search"
+      ]
+    },
+    {
+      "type": "series",
+      "id": "latest_series",
+      "name": "Latest",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Biography",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Sci-Fi",
+            "Sport",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        }
+      ],
+      "extraSupported": [
+        "genre",
+        "skip"
+      ]
+    },
+    {
+      "type": "series",
+      "id": "top_series",
+      "name": "Popular",
+      "extra": [
+        {
+          "name": "genre",
+          "isRequired": false,
+          "options": [
+            "Action",
+            "Adventure",
+            "Animation",
+            "Biography",
+            "Comedy",
+            "Crime",
+            "Documentary",
+            "Drama",
+            "Family",
+            "Fantasy",
+            "History",
+            "Horror",
+            "Music",
+            "Mystery",
+            "Romance",
+            "Sci-Fi",
+            "Sport",
+            "Thriller",
+            "War",
+            "Western"
+          ]
+        },
+        {
+          "name": "skip"
+        },
+        {
+          "name": "search",
+          "isRequired": false
+        }
+      ],
+      "extraSupported": [
+        "genre",
+        "skip",
+        "search"
+      ]
+    }
+  ],
+  "idPrefixes": [
+    ""
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}
